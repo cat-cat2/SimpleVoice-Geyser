@@ -403,19 +403,28 @@ a:hover {
 }
 
 .noscript-container {
-  background: red;
+  background: #b91c1c;
   color: white;
-  padding: 10px;
+
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+
+  border-radius: 8px;
+  border: 2px solid #7f1d1d;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+
   text-align: center;
-  font-weight: bolder;
-  z-index: 9999;
-  width: 100vw;
-  box-sizing: border-box;
-  margin: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
+  font-weight: 600;
+}
+
+.noscript-container h2 {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+}
+
+.noscript-container p {
+  margin: 4px 0;
 }
 
 .report-button {
